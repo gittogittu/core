@@ -1,7 +1,10 @@
 # core
 
 this project is an explansion/plugin for the magister 
-
+start with
+```
+node server.js
+```
 ----------------------------
 
 
