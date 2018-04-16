@@ -1,6 +1,6 @@
 {
   "name": "node-website-template",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Website/Web Service template in Node.js",
   "main": "router.js",
   "directories": {
