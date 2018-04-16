@@ -6,7 +6,7 @@ if you want to know what magister is, look at [this](https://www.magister.nl/) (
 
 # table of contents
 * [ideas](#Ideas)
-* [building](Build-mpp)
+* [building](#Build-mpp)
 * [project members](#Members)
 * [handy links](#Handy-Links)
 
