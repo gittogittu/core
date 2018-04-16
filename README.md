@@ -10,10 +10,10 @@ node server.js
 
 index
 ------
-  ⋅⋅*planner       (agenda)                - Silas / Rik	
-  ⋅⋅*grades        (notifications)         - Silas / Rik	
-  ⋅⋅*messager      (with notifications)    - Daniel			
-  ⋅⋅*plattegrond   (routes)                - Nienke			
+  1.planner       (agenda)                - Silas / Rik	
+  1.grades        (notifications)         - Silas / Rik	
+  1.messager      (with notifications)    - Daniel			
+  1.plattegrond   (routes)                - Nienke			
 
 
 links
