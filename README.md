@@ -8,7 +8,7 @@ if you want to know what magister is, look at [this](https://www.magister.nl/) (
 * [ideas](#ideas)
 * [building](build-mpp)
 * [project members](#members)
-* [links](#links)
+* [links](#handy-links)
 
 ## ideas
 
@@ -38,7 +38,7 @@ args examples:
 * [Daniel](https://github.com/DanBrothers)
 
 
-## links
+## handy-links
 
 * [w3schools](https://www.w3schools.com/)
 * [magister android app](https://play.google.com/store/apps/details?id=nl.schoolmaster.magister.mobile)
