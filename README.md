@@ -5,7 +5,7 @@ this project is an improvement of the magister program called: magister++ (speak
 if you want to know what magister is, look at [this](https://www.magister.nl/) (dutch)
 
 
-here is a live preview: [demo](https://magister-plus-plus.github.io/core/)
+here is a live preview: [demo](https://magister-plus-plus.github.io/core/ target="_blank")
 
 # table of contents
 * [ideas](#ideas)
