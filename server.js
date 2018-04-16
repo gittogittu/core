@@ -51,9 +51,15 @@ app.get('*', function(req, res) {
 		case '/':
 			res.redirect('/magister');
 			break;
-		case '/magister':
+		case '/login':
 			
+			break;
+		case '/logout':
+			break;
+		case '/magister':
+			break;
 		case '/magister/:id':
+			break;
 	}
 	server.islogedin();
 });
