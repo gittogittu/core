@@ -8,7 +8,7 @@ if you want to know what magister is, look at [this](https://www.magister.nl/) (
 * [ideas](#ideas)
 * [building](build-mpp)
 * [project members](#members)
-* [links](#handy-links)
+* [handy links](#handy-links)
 
 ## ideas
 
