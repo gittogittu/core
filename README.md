@@ -5,7 +5,7 @@ this project is an improvement of the magister program called: magister++ (speak
 if you want to know what magister is, look at [this](https://www.magister.nl/) (dutch)
 
 # table of contents
-* [ideas](#ideas)
+* [ideas](#Ideas)
 * [building](Build-mpp)
 * [project members](#Members)
 * [handy links](#Handy-Links)
