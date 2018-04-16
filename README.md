@@ -2,13 +2,13 @@
 
 this project is an expansion/plugin for the magister program
 
-#table of contents
+# table of contents
 * [ideas](#ideas)
 * [building](build-mpp)
 * [project members](#members)
 * [links](#links)
 
-##ideas
+## ideas
 
   1. planner       (agenda)                - Silas / Rik	
   1. grades        (notifications)         - Silas / Rik	
@@ -16,7 +16,7 @@ this project is an expansion/plugin for the magister program
   1. plattegrond   (routes)                - Nienke			
 
 
-##build-mpp
+## build-mpp
 
 start with node:
 ```
@@ -28,7 +28,7 @@ args examples:
 * **--dev**: run this in development mode
 
 
-##members
+## members
 
 * [Silas](https://github.com/silasprins)
 * [Rik](https://github.com/RikHelder)
@@ -36,14 +36,14 @@ args examples:
 * [Daniel](https://github.com/DanBrothers)
 
 
-##links
+## links
 
-[w3schools](https://www.w3schools.com/)
-[magister android app](https://play.google.com/store/apps/details?id=nl.schoolmaster.magister.mobile)
-[office365](https://office365.com)
-[magister](https://davinci.magister.net/)
-[gonative (transform html to android app)](https://gonative.io/)
-[coding ide's](https://www.tutorialspoint.com/codingground.htm)
-[code anywhere](https://codeanywhere.com/)
-[github api](https://developer.github.com/)
-[github md cheatsheed](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [w3schools](https://www.w3schools.com/)
+* [magister android app](https://play.google.com/store/apps/details?id=nl.schoolmaster.magister.mobile)
+* [office365](https://office365.com)
+* [magister](https://davinci.magister.net/)
+* [gonative (transform html to android app)](https://gonative.io/)
+* [coding ide's](https://www.tutorialspoint.com/codingground.htm)
+* [code anywhere](https://codeanywhere.com/)
+* [github api](https://developer.github.com/)
+* [github md cheatsheed](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
