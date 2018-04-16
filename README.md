@@ -1,14 +1,14 @@
 # core
 
-this project is an explansion/plugin for the magister 
-start with
-```
-node server.js
-```
-----------------------------
+this project is an expansion/plugin for the magister program
 
+#table of contents
+*[ideas](#ideas)
+*[building](build-mpp)
+*[project members](#members)
+*[links](#links)
 
-index
+##ideas
 ------
   1. planner       (agenda)                - Silas / Rik	
   1. grades        (notifications)         - Silas / Rik	
@@ -16,14 +16,34 @@ index
   1. plattegrond   (routes)                - Nienke			
 
 
-links
+##build-mpp
 ------
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-https://www.w3schools.com/
-https://play.google.com/store/apps/details?id=nl.schoolmaster.magister.mobile
-https://office365.com
-https://davinci.magister.net/
-https://gonative.io/
-https://www.tutorialspoint.com/codingground.htm
-https://codeanywhere.com/
-https://developer.github.com/
+start with node:
+```
+node server.js {args}
+```
+
+args examples:
+* **--help**: show help, doesnt start application
+* **--dev**: run this in development mode
+
+
+##members
+------
+*[Silas](https://github.com/silasprins)
+*[Rik](https://github.com/RikHelder)
+*[Nienke](https://github.com/nienkegraumans)
+*[Daniel](https://github.com/DanBrothers)
+
+
+##links
+------
+[w3schools](https://www.w3schools.com/)
+[magister android app](https://play.google.com/store/apps/details?id=nl.schoolmaster.magister.mobile)
+[office365](https://office365.com)
+[magister](https://davinci.magister.net/)
+[gonative (transform html to android app)](https://gonative.io/)
+[coding ide's](https://www.tutorialspoint.com/codingground.htm)
+[code anywhere](https://codeanywhere.com/)
+[github api](https://developer.github.com/)
+[github md cheatsheed](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
