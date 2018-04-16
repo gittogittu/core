@@ -3,13 +3,13 @@
 this project is an expansion/plugin for the magister program
 
 #table of contents
-*[ideas](#ideas)
-*[building](build-mpp)
-*[project members](#members)
-*[links](#links)
+* [ideas](#ideas)
+* [building](build-mpp)
+* [project members](#members)
+* [links](#links)
 
 ##ideas
-------
+
   1. planner       (agenda)                - Silas / Rik	
   1. grades        (notifications)         - Silas / Rik	
   1. messager      (with notifications)    - Daniel			
@@ -17,7 +17,7 @@ this project is an expansion/plugin for the magister program
 
 
 ##build-mpp
-------
+
 start with node:
 ```
 node server.js {args}
@@ -29,15 +29,15 @@ args examples:
 
 
 ##members
-------
-*[Silas](https://github.com/silasprins)
-*[Rik](https://github.com/RikHelder)
-*[Nienke](https://github.com/nienkegraumans)
-*[Daniel](https://github.com/DanBrothers)
+
+* [Silas](https://github.com/silasprins)
+* [Rik](https://github.com/RikHelder)
+* [Nienke](https://github.com/nienkegraumans)
+* [Daniel](https://github.com/DanBrothers)
 
 
 ##links
-------
+
 [w3schools](https://www.w3schools.com/)
 [magister android app](https://play.google.com/store/apps/details?id=nl.schoolmaster.magister.mobile)
 [office365](https://office365.com)
