@@ -3,8 +3,8 @@
  *  
  *  name: magister++
  *  MIT Licensed
- *  using modules: -
  *
+ *  using modules: -
  *  start command: 'node server.js'
  */
 
