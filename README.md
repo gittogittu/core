@@ -1,6 +1,6 @@
-# core
+# mpp Core
 
-this project is an expansion/plugin for the magister program.
+this project is an improvement of the magister program called: magister++ (speak out as: magister plus plus)
 
 if you want to know what magister is, look at [this](https://www.magister.nl/) (dutch)
 
@@ -10,7 +10,7 @@ if you want to know what magister is, look at [this](https://www.magister.nl/) (
 * [project members](#members)
 * [handy links](#handy-links)
 
-## ideas
+## Ideas
 
   1. planner       (agenda)                - Silas / Rik	
   1. grades        (notifications)         - Silas / Rik	
@@ -18,7 +18,7 @@ if you want to know what magister is, look at [this](https://www.magister.nl/) (
   1. plattegrond   (routes)                - Nienke			
 
 
-## build-mpp
+## Build-mpp
 
 start with node:
 ```
@@ -30,7 +30,7 @@ args examples:
 * **--dev**: run this in development mode
 
 
-## members
+## Members
 
 * [Silas](https://github.com/silasprins)
 * [Rik](https://github.com/RikHelder)
@@ -38,7 +38,7 @@ args examples:
 * [Daniel](https://github.com/DanBrothers)
 
 
-## handy-links
+## Handy-Links
 
 * [w3schools](https://www.w3schools.com/)
 * [magister android app](https://play.google.com/store/apps/details?id=nl.schoolmaster.magister.mobile)
