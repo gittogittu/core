@@ -1,6 +1,7 @@
 # core
 
 this project is an expansion/plugin for the magister program
+if you want to know what magister is, look at [this](https://www.magister.nl/) (dutch)
 
 # table of contents
 * [ideas](#ideas)
