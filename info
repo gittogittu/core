@@ -3,7 +3,7 @@ this project is an explansion/plugin for the magister
 ----------------------------
 
 index:
-  planner       (agenda)
-  grades        (notifications)
-  messager      (with notifications)
-  plattegrond   (routes)
+  planner       (agenda)                - Silas / Rik
+  grades        (notifications)         - Silas / Rik
+  messager      (with notifications)    - Daniel
+  plattegrond   (routes)                - Nienke
