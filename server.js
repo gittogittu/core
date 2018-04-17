@@ -52,14 +52,34 @@ app.get('*', function(req, res) {
 			res.redirect('/magister');
 			break;
 		case '/login':
-			
+			res.sendFile(__dirname + "/html/login.html" );
 			break;
 		case '/logout':
+			res.redirect('/login');
 			break;
 		case '/magister':
+			if(server.isAuth(req, res)) {
+			   
+			}else {
+				res.
+			}
 			break;
 		case '/magister/:id':
 			break;
 	}
 	server.islogedin();
+});
+
+app.post('login', function(req, res) {
+	if (req) {
+		
+	}
+});
+
+app.post('/api/users', function(req, res) {
+    var user_id = req.body.id;
+    var token = req.body.token;
+    var geo = req.body.geo;
+
+    res.send(user_id + ' ' + token + ' ' + geo);
 });
