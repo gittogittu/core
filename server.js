@@ -10,6 +10,8 @@
 
 // Using the chicken modules (made by Danj) to make life easier: link
 var chickencore = require('chickencore');
+// the logger from chickencore
+var log = chickencore.logger;
 // Create web app
 var app = chickencore();
 // Set up webserver
@@ -62,7 +64,7 @@ app.get('*', function(req, res) {
 			break;
 		case '/magister/:id':
 			if(server.isAuth(req, res)) {
-			   
+			   res.sendFile(__dirname + "/html/" + :id + ".html");
 			}else {
 				res.redirect('/login');
 			}
@@ -71,7 +73,10 @@ app.get('*', function(req, res) {
 });
 
 app.post('login', function(req, res) {
-	if (req.body.) {
-		
+	if (req.body.name) {
+		if(req.body.password) {
+			server.login(req, res);
+		}
 	}
+	log("attempted login from: " + req.);
 });
