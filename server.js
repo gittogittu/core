@@ -91,5 +91,5 @@ app.post('/login', function(req, res) {
 });
 
 app.post('/logout', function(req, res) {
-	server.logout();
+	server.logout(req, res);
 });
