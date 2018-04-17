@@ -64,10 +64,18 @@ app.get('*', function(req, res) {
 			break;
 		case '/magister/:id':
 			if(server.isAuth(req, res)) {
-			   res.sendFile(__dirname + "/html/" + :id + ".html");
+				if(fs.existsSync(__dirname + "/html/" + req.params.id + ".html")) {
+					res.sendFile(__dirname + "/html/" + req.params.id + ".html");
+				}else {
+					server.Render(__dirname + "/html/errorpage.html", "403error", config.lang, function(str){res.send(str)});	
+				}
 			}else {
 				res.redirect('/login');
 			}
+			break;
+		default:
+			server.Render(__dirname + "/html/errorpage.html", "403error", config.lang, function(str){res.send(str)});
+			return;
 			break;
 	}
 });
@@ -81,9 +89,5 @@ app.post('/login', function(req, res) {
 });
 
 app.post('/logout', function(req, res) {
-	if (req.body.name) {
-		if(req.body.password) {
-			server.login(req, res);
-		}
-	}
+	server.logout();
 });
