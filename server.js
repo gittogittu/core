@@ -11,7 +11,7 @@
 // Using the chicken modules (made by Danj) to make life easier: link
 var chickencore = require('chickencore');
 // the logger from chickencore
-var log = chickencore.logger;
+var logger = chickencore.logger;
 // Create web app
 var app = chickencore();
 // Set up webserver
@@ -72,11 +72,18 @@ app.get('*', function(req, res) {
 	}
 });
 
-app.post('login', function(req, res) {
+app.post('/login', function(req, res) {
 	if (req.body.name) {
 		if(req.body.password) {
 			server.login(req, res);
 		}
 	}
-	log("attempted login from: " + req.);
+});
+
+app.post('/logout', function(req, res) {
+	if (req.body.name) {
+		if(req.body.password) {
+			server.login(req, res);
+		}
+	}
 });
