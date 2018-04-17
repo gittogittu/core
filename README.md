@@ -42,6 +42,7 @@ args examples:
 
 
 ## Handy-Links
+just some links to remind us we are not alone
 
 * [w3schools](https://www.w3schools.com/)
 * [magister android app](https://play.google.com/store/apps/details?id=nl.schoolmaster.magister.mobile)
@@ -52,3 +53,4 @@ args examples:
 * [code anywhere](https://codeanywhere.com/)
 * [github api](https://developer.github.com/)
 * [github md cheatsheed](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [secure node website](https://nodewebapps.com/2017/01/03/13-security-best-practices-for-your-web-application/)
