@@ -1,8 +1,8 @@
 /*!
  *  author: Danj
  *  
- *  name: magister++
- *  MIT Licensed
+ *  name: magister+
+ *  gae licensed
  *
  *  using modules: -
  *  start command: 'node server.js'
