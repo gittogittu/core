@@ -4,6 +4,7 @@ this project is an improvement of the magister program called: magister++ (speak
 
 if you want to know what magister is, look at [this](https://www.magister.nl/) (dutch)
 
+<a href="http://example.com" target="_blank">http://example.com</a>
 
 here is a live preview: [demo](https://magister-plus-plus.github.io/core/)
 
