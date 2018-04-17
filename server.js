@@ -1,7 +1,7 @@
 /*!
  *  author: Danj
  *  
- *  name: magister+
+ *  name: magister++
  *  gae licensed
  *
  *  using modules: chickencore
