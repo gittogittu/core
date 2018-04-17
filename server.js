@@ -58,28 +58,20 @@ app.get('*', function(req, res) {
 			res.redirect('/login');
 			break;
 		case '/magister':
+			res.redirect('/magister/' + config.magister.homepage);
+			break;
+		case '/magister/:id':
 			if(server.isAuth(req, res)) {
 			   
 			}else {
-				res.
+				res.redirect('/login');
 			}
 			break;
-		case '/magister/:id':
-			break;
 	}
-	server.islogedin();
 });
 
 app.post('login', function(req, res) {
-	if (req) {
+	if (req.body.) {
 		
 	}
-});
-
-app.post('/api/users', function(req, res) {
-    var user_id = req.body.id;
-    var token = req.body.token;
-    var geo = req.body.geo;
-
-    res.send(user_id + ' ' + token + ' ' + geo);
 });
