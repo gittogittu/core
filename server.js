@@ -4,7 +4,7 @@
  *  name: magister+
  *  gae licensed
  *
- *  using modules: -
+ *  using modules: chickencore
  *  start command: 'node server.js'
  */
 
@@ -26,7 +26,7 @@ var classes = require('./classes.js');
 var config = require(./config.json);
 
 //the server module
-var server = classes.MakeServer(config.servername, webserver);
+var server = classes.MakeServer(config.servername, chickencore);
 
 
 //------------Random Portion--------------
@@ -84,8 +84,10 @@ app.post('/login', function(req, res) {
 	if (req.body.name) {
 		if(req.body.password) {
 			server.login(req, res);
+			return;
 		}
 	}
+	res.sendFile(__dirname + "/html/login.html" );
 });
 
 app.post('/logout', function(req, res) {
