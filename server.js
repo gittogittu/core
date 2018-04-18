@@ -12,11 +12,7 @@
 var chickencore = require('chickencore');
 // the logger from chickencore
 var logger = chickencore.logger;
-// Create web app
-var app = chickencore();
-// Set up webserver
-var webserver = chickencore.listen(process.env.PORT || config.port, listen);
-
+// fs, for file system
 var fs = require('fs');
 
 
@@ -25,8 +21,10 @@ var classes = require('./classes.js');
 // the config file for easiness
 var config = require(./config.json);
 
-//the server module
-var server = classes.MakeServer(config.servername, chickencore);
+// Create web app
+var app = chickencore(config.servername]);
+// Set up webserver
+var webserver = chickencore.listen(process.env.PORT || config.port, listen);
 
 
 //------------Random Portion--------------
@@ -63,18 +61,18 @@ app.get('*', function(req, res) {
 			res.redirect('/magister/' + config.magister.homepage);
 			break;
 		case '/magister/:id':
-			if(server.isAuth(req, res)) {
+			if(app.isAuth(req, res)) {
 				if(fs.existsSync(__dirname + "/html/" + req.params.id + ".html")) {
 					res.sendFile(__dirname + "/html/" + req.params.id + ".html");
 				}else {
-					server.Render(__dirname + "/html/errorpage.html", "403error", config.lang, function(str){res.send(str)});	
+					app.Render(__dirname + "/html/errorpage.html", "403error", config.lang, function(str){res.send(str)});	
 				}
 			}else {
 				res.redirect('/login');
 			}
 			break;
 		default:
-			server.Render(__dirname + "/html/errorpage.html", "403error", config.lang, function(str){res.send(str)});
+			app.Render("errorpage.html", "403error", config.lang, function(str){res.send(str)});
 			return;
 			break;
 	}
@@ -83,7 +81,7 @@ app.get('*', function(req, res) {
 app.post('/login', function(req, res) {
 	if (req.body.name) {
 		if(req.body.password) {
-			server.login(req, res);
+			app.login(req, res);
 			return;
 		}
 	}
@@ -91,5 +89,5 @@ app.post('/login', function(req, res) {
 });
 
 app.post('/logout', function(req, res) {
-	server.logout(req, res);
+	app.logout(req, res);
 });
