@@ -27,7 +27,7 @@
 	</style>
 </head>
 
-	<body style="max-width:1600px">
+	<body style="max-width:1600px; overflow:hidden;">
 		<div class="navigator">
 			<nav class="" style="z-index:3;width:300px;" id="sidebar"><br>
 				<div class="">
@@ -64,8 +64,8 @@
 		<script src="/js/main.js">
 		<script src="/js/analitics.js">
 		<script>
-			// Script to open and close sidebar
-			function open() {
+		// Script to open and close sidebar
+		function open() {
 			document.getElementById("sidebar").style.display = "block";
 			document.getElementById("overlay").style.display = "block";
 		}
@@ -73,6 +73,11 @@
 		function close() {
 			document.getElementById("sidebar").style.display = "none";
 			document.getElementById("overlay").style.display = "none";
+		}
+		
+		// very cool
+		function hide() {
+			document.getElementById("overlay").setAttribute("hidden", true);
 		}
 		</script>
 		https://www.w3schools.com/w3css/tryw3css_templates_portfolio.htm
