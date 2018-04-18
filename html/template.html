@@ -9,14 +9,26 @@
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
 
 	<style>
+		.navigator {
+			
+		}
+		
+		header {
+			
+		}
+		
 		main {
-
+			
+		}
+		
+		footer {
+			
 		}
 	</style>
 </head>
 
 	<body style="max-width:1600px">
-		<div>
+		<div class="navigator">
 			<nav class="" style="z-index:3;width:300px;" id="sidebar"><br>
 				<div class="">
 					<a href="#" onclick="close()" class="" title="close menu">
@@ -35,24 +47,32 @@
 
 
 		<!-- Overlay effect when opening sidebar on small screens -->
-		<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
-
+		<div class="" onclick="close()" style="cursor:pointer" title="close side menu" id="overlay"></div>
+		
+		<header>
+			{header}
+		</header>
+		
 		<main style="margin-left:300px">
 			{main-structure}
 		</main>
+		
+		<footer>
+			{footer}
+		</footer>
 
 		<script src="/js/main.js">
 
 		<script>
 			// Script to open and close sidebar
 			function open() {
-			document.getElementById("mySidebar").style.display = "block";
-			document.getElementById("myOverlay").style.display = "block";
+			document.getElementById("sidebar").style.display = "block";
+			document.getElementById("overlay").style.display = "block";
 		}
 
 		function close() {
-			document.getElementById("mySidebar").style.display = "none";
-			document.getElementById("myOverlay").style.display = "none";
+			document.getElementById("sidebar").style.display = "none";
+			document.getElementById("overlay").style.display = "none";
 		}
 		</script>
 	
