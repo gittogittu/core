@@ -4,19 +4,27 @@
 			"default": true,
 		},
 		"docent": {
-			"prefix": '&0(&8M&7ember&0)&7 '
-			inheritance:
-			- Member 
-			permissions:
-			- trailgui.*
-			- essentials.kits.firework
-			- essentials.hat
+			"inheritance":  {
+				"student": true
+			},
+			"permissions": {
+				"": true,
+				"add_grades": true,
+				"remove_grades": true,
+			}
 		},
 		"moderators": {
-			
+			"inheritance":  {
+				"student": true
+			},
+			"permissions": {
+				"add_class_schedule_change_*": true
+			}
 		},
 		"admin": {
-			
+			"permissions": {
+				"*": true
+			}
 		}
 	}
 }
