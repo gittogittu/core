@@ -1,0 +1,22 @@
+{
+	"groups": {
+		"student": {
+			"default": true,
+		},
+		"docent": {
+			"prefix": '&0(&8M&7ember&0)&7 '
+			inheritance:
+			- Member 
+			permissions:
+			- trailgui.*
+			- essentials.kits.firework
+			- essentials.hat
+		},
+		"moderators": {
+			
+		},
+		"admin": {
+			
+		}
+	}
+}
