@@ -60,35 +60,6 @@
 			line-height: 1.6; 
 			transform: translate(0px, 60%);
 		}
-		
-		.myButton {
-			margin-top: 2%;
-			-moz-box-shadow: 2px 2px 0px 0px #899599;
-			-webkit-box-shadow: 2px 2px 0px 0px #899599;
-			box-shadow: 2px 2px 0px 0px #899599;
-			background-color:#E6E6E6;
-			-moz-border-radius:6px;
-			-webkit-border-radius:6px;
-			border-radius:6px;
-			border:1px solid #d6bcd6;
-			display:inline-block;
-			cursor:pointer;
-			color:#424242;
-			font-family:Arial;
-			font-size:13px;
-			padding:2px 15px;
-			text-decoration:none;
-			text-shadow:1px 1px 5px #e1e2ed;
-		}
-
-		.myButton:hover {
-			background-color:#BDBDBD;
-		}
-
-		.myButton:active {
-			position:relative;
-			top:1px;
-		}
 	</style>
 	
 	<body>
@@ -100,9 +71,17 @@
 				<h2>#error#</h2>
 				<p><strong>#errorname#</strong></p>
 				<p>#errortext#</p>
-				<a href="#buttonlink#" class="myButton">#buttontext#</a>
 			</section>
 		</div>
 	</body>
 	
+	<script>
+		document.body.addEventListener('mousedown', function() {
+			document.body.style.backgroundColor = "#cccccc";
+		}, true); 
+		
+		document.body.addEventListener('click', function() {
+			window.location.href = "/magister";
+		}, true); 
+	</script>
 </html>
