@@ -16,7 +16,7 @@ here is a live preview: [demo](https://magister-plus-plus.github.io/core/)
 
   1. planner       (agenda)                - Silas / Rik	
   1. grades        (notifications)         - Silas / Rik	
-  1. messager      (with notifications)    - Daniel			
+  1. messager      (with notifications)    - DanJ			
   1. plattegrond   (routes)                - Nienke			
 
 
@@ -37,7 +37,7 @@ args examples:
 * [Silas](https://github.com/silasprins)
 * [Rik](https://github.com/RikHelder)
 * [Nienke](https://github.com/nienkegraumans)
-* [Daniel](https://github.com/DanBrothers)
+* [DanJ](https://github.com/DanBrothers)
 
 
 ## Handy-Links
