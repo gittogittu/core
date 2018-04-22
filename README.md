@@ -33,10 +33,11 @@ args examples:
 
 
 ## Members
-
+### Contributors
 * [Silas](https://github.com/silasprins)
 * [Rik](https://github.com/RikHelder)
 * [Nienke](https://github.com/nienkegraumans)
+### maintainer
 * [DanJ](https://github.com/DanBrothers)
 
 
