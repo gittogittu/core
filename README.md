@@ -1,5 +1,5 @@
 # mpp Core
-![mpp_img](https://github.com/magister-plus-plus/core/blob/master/img/final2width.png?raw=true)
+![mpp_img](https://github.com/magister-plus-plus/core/blob/master/img/magister++-logo.png?raw=true)
 this project is an improvement of the magister program called: magister++ (speak out as: magister plus plus)
 
 if you want to know what magister is, look at [this](https://www.magister.nl/) (dutch)
