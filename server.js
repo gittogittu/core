@@ -45,7 +45,7 @@ function listen() {
 
 app.get('*', function(req, res) {
 	
-	if (JSON.parse(config.offline)) return res.sendFile(__dirname + "/html/website_offline.html");
+	if (config.offline) return res.sendFile(__dirname + "/html/website_offline.html");
 	
 	switch(req.originalUrl) {
 		case '/':
