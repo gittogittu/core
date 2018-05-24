@@ -2,7 +2,7 @@
  *  author: Danj
  *  
  *  name: magister++
- *  gae licensed
+ *  *** licensed
  *
  *  using modules: chickencore
  *  start command: 'node server.js'
